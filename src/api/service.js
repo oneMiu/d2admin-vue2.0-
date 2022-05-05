@@ -84,7 +84,7 @@ function createRequestFunction (service) {
         "Content-Type": "application/json"
       },
       timeout: 5000,
-      baseURL: 'http://feixun.link.newsupplytech.com',
+      baseURL: 'http://192.168.1.35:8001',
       data: {}
     }
     if (config.url != "/auth/login") {
